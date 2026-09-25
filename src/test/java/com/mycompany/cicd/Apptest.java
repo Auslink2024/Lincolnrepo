@@ -32,7 +32,7 @@ public class Apptest
         driver.get("https://www.google.com");
         assertTrue(driver.getTitle().contains("Google"), "Title should contain Google");
         System.out.println("Today's date is: " + new java.util.Date());
-        System.out.println("Lincoln Test Case Execution .... Google Home Page");
+        System.out.println("Lincoln,David, Kashapp Test Case Execution .... Google Home Page");
         System.out.println("Page title: " + driver.getTitle());
         if(driver.getTitle().contains("Google"))
         {
